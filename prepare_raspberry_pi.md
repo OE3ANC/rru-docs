@@ -49,7 +49,8 @@ On the PI 4 i used these PINS:
 | --- | --- |
 | 14  | TX  |
 | 15  | RX  |
-| 18  | PA  |
+| 17  | NRST  |
+| 27  | PA  |
 | GND | GND |
 
 
