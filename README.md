@@ -2,6 +2,8 @@
 
 This repository contains documentation for setting up the [Remote Radio Unit](https://github.com/M17-Project/rru-rf-hw) developed by SP5WWP for the M17 Project.
 
+![RRU](images/rru.jpg)
+
 ## Overview
 
 These guides document my process for:
