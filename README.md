@@ -13,7 +13,7 @@ Guides:
 - Build and Flash the RRU Firmware
 
 ---
-#### [Prepare and connect the Raspberry PI](build_and_flash_firmware.md)
+#### [Prepare and connect the Raspberry PI](prepare_raspberry_pi.md)
 - Connect the RRU to the Raspberry PIs GPIOs
 - Setup the RPIs internal serial port and the user to use it
 ---
