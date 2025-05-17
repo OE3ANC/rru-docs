@@ -20,11 +20,15 @@ Guides:
 - Setup the RPIs internal serial port and the user to use it
 
 ---
-
-#### [Build and use cari host](build_and_use_cari_host.md)
+#### [Build and use cari-host](build_and_use_cari_host.md)
 - Install dependencies
 - Build and install cari-host and connect to the RRU
 
+---
+#### [Build and use cari-ctrl (Work in Progress)](cari-ctrl-grc.md)
+- Building cari-ctrl
+- Receive baseband by subscribing to CARIs zmq publisher
+- Plot eye diagram
 ---
 
 Make sure to also check [M17 Project](https://m17project.org/) / [M17 Foundation](https://m17foundation.org/) for more awesome open source software and hardware!
