@@ -1,34 +1,35 @@
-# rru-docs
+# RRU Documentation
 
-I'll put my write-ups about the setup of SP5WWPs [Remote Radio Unit](https://github.com/M17-Project/rru-rf-hw) in this repo.
+This repository contains documentation for setting up the [Remote Radio Unit](https://github.com/M17-Project/rru-rf-hw) developed by SP5WWP for the M17 Project.
 
-This is how i built and flashed the [RRU firmware](https://github.com/M17-Project/rru-rf-fw.git), setup my Raspberry PI 4 (I didn't used the [CM4 board](https://github.com/M17-Project/rru-cm4-hw.git) for now) and built and run [cari-host](https://github.com/M17-Project/cari-host.git) on the Raspberry PI.
+## Overview
 
-I used Arch Linux on my host PC and Raspberry PI OS (x64) on the Raspberry 4.
+These guides document my process for:
+- Building and flashing the [RRU firmware](https://github.com/M17-Project/rru-rf-fw.git)
+- Setting up a **Raspberry Pi 4** (replaces the [CM4 board](https://github.com/M17-Project/rru-cm4-hw.git) for now)
+- Building and running [cari-host](https://github.com/M17-Project/cari-host.git) on the Raspberry Pi
 
-Guides:
----
+My setup uses **Arch Linux** on the host PC and **Raspberry Pi OS (x64)** on the Raspberry Pi 4.
 
-#### [Build and flash the RRU firmware](build_and_flash_firmware.md)
-- Connect the STLink and a USB-UART converter for debugging
-- Build and Flash the RRU Firmware
+## Guides
 
----
+### [Build and Flash RRU Firmware](build_and_flash_firmware.md)
+- Connect STLink and USB-UART converter for debugging
+- Build and flash the RRU firmware
 
-#### [Prepare and connect the Raspberry PI](prepare_raspberry_pi.md)
-- Connect the RRU to the Raspberry PIs GPIOs
-- Setup the RPIs internal serial port and the user to use it
+### [Prepare Raspberry Pi](prepare_raspberry_pi.md)
+- Connect the RRU to Raspberry Pi GPIOs
+- Configure the internal serial port and user permissions
 
----
-#### [Build and use cari-host](build_and_use_cari_host.md)
+### [Build and Use cari-host](build_and_use_cari_host.md)
 - Install dependencies
-- Build and install cari-host and connect to the RRU
+- Build and install cari-host
+- Connect to the RRU
 
----
-#### [Build and use cari-ctrl (Work in Progress)](cari-ctrl-grc.md)
-- Building cari-ctrl
-- Receive baseband by subscribing to CARIs zmq publisher
+### [Build and Use cari-ctrl](cari-ctrl-grc.md) (Work in Progress)
+- Build cari-ctrl
+- Receive RRUs baseband via the ZMQ publisher provided by cari-host
 - Plot eye diagram
----
 
-Make sure to also check [M17 Project](https://m17project.org/) / [M17 Foundation](https://m17foundation.org/) for more awesome open source software and hardware!
+## Additional Resources
+For more open source radio projects, visit [M17 Project](https://m17project.org/) and [M17 Foundation](https://m17foundation.org/).
