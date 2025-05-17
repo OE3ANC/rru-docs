@@ -27,6 +27,7 @@ You can quit picocom with ctrl-a, ctrl-x
 | SWDIO         | SWDIO |
 | SWCLK         | SWCLK |
 | NOT CONNECTED | U_MCU |
+
 I haven't connected U_MCU as i'm powering the MCU with the RRUs internal PSU
 
 My first attempts to connect to SWD with a ST-Link from a nucleo board failed. I ended up ordering a cheap ST-Link "stick" from the internet which worked without problems. I'm not sure what was the problem with the one of the nucleo board, maybe it's just broken.
