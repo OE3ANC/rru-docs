@@ -1,4 +1,4 @@
-# RRU Documentation
+# RRU documentation
 
 This repository contains documentation for setting up the [Remote Radio Unit](https://github.com/M17-Project/rru-rf-hw) developed by SP5WWP for the M17 Project.
 
@@ -13,7 +13,7 @@ My setup uses **Arch Linux** on the host PC and **Raspberry Pi OS (x64)** on the
 
 ## Guides
 
-### [Build and Flash RRU Firmware](build_and_flash_firmware.md)
+### [Build and flash RRU firmware](build_and_flash_firmware.md)
 - Connect STLink and USB-UART converter for debugging
 - Build and flash the RRU firmware
 
@@ -21,15 +21,15 @@ My setup uses **Arch Linux** on the host PC and **Raspberry Pi OS (x64)** on the
 - Connect the RRU to Raspberry Pi GPIOs
 - Configure the internal serial port and user permissions
 
-### [Build and Use cari-host](build_and_use_cari_host.md)
+### [Build and use cari-host](build_and_use_cari_host.md)
 - Install dependencies
 - Build and install cari-host
 - Connect to the RRU
 
-### [Build and Use cari-ctrl](cari-ctrl-grc.md) (Work in Progress)
+### [Build and use cari-ctrl](cari-ctrl-grc.md) (Work in Progress)
 - Build cari-ctrl
 - Receive RRUs baseband via the ZMQ publisher provided by cari-host
 - Plot eye diagram
 
-## Additional Resources
+## Additional resources
 For more open source radio projects, visit [M17 Project](https://m17project.org/) and [M17 Foundation](https://m17foundation.org/).
