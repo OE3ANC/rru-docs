@@ -53,5 +53,5 @@ On the PI 4 i used these PINS:
 | GND | GND |
 
 
-![[PIPinout.png]] (image by https://pinout.xyz/)
+![PIPinout](images/PIPinout.png) (image by https://pinout.xyz/)
 
