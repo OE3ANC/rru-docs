@@ -38,7 +38,7 @@ Install the STM32CubeIDE and STM32CubeProgrammer. Open the [rru-rf-fw](https://g
 
 Then open the STM32CubeProgrammer, connect to the ST-Link, select "Erase & Programming", select built firmware (rru-rf-fw/Release/rru-rf-fw.bin) and press Start Programming. These are the options i've used:
 
-![[STM32CubeProgrammer.png]]
+![STM32CubeProgrammer](images/STM32CubeProgrammer.png)
 
 On the debug console, you should see this output, if you've checked "Run after programming":
 
