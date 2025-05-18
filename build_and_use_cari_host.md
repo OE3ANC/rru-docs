@@ -11,7 +11,7 @@ cd ~/rru
 Install dependencies:
 ```bash
 sudo apt update
-sudo apt install -y git libzmq3-dev libgpiod
+sudo apt install -y git libzmq3-dev libgpiod-dev
 ```
 
 Clone, make and install:
