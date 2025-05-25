@@ -1,5 +1,8 @@
 # RRU documentation
 
+# The documentation moved to the [M17 Wiki](https://wiki.m17foundation.org/index.php?title=RRU_Setup)
+
+
 This repository contains documentation for setting up the [Remote Radio Unit](https://github.com/M17-Project/rru-rf-hw) developed by SP5WWP for the M17 Project.
 
 ![RRU](images/rru.jpg)
